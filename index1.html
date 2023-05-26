@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head> 
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form action="">
+        <center><h1>Регистрация</h1></center>
+        <div class = "group">
+            <label class="label" for="">Имя пользователя(Логин)</label>
+            <input class="input" type="text">
+        </div>
+        <div class = "group">
+            <label class="label" for="">Пароль</label>
+            <input class="input" type="password">
+            <label class="label" for="">Пароль должен содержать от 4 до 12 символов</label>
+        </div>
+        <div class = "group">
+            <label class="label" for="">Email</label>
+            <input class="input" type="email">
+            <label class="label" for="">Пример:example@mail.ru</label>
+        </div>
+        <div class="switch">
+            <input class="input2" type="checkbox">
+        </div>
+        <div class="group">
+            <label class="label1" for="">Оповещение от сайта в браузере</label>
+        </div>
+
+        <div class="group">
+            <label for=""><h3>Статус:</h3></label>
+            <p><input type="radio" name="type">
+            <label for="status">Заказчик</label></p>
+            <p><input type="radio" name="type">
+            <label for="status">Менеджер</label></p>
+            <p><input type="radio" name="type">
+            <label for="status">Кладовщик</label></p>
+            <input type="radio" name="type">
+            <label for="status">Дирекция</label>
+        </div>
+        
+        <div class="group">
+            <label class="label" for="">Город проживания</label>
+            <select class="input">
+                <option value="arkhangelsk">Архангельск</option>
+                <option value="moscow">Москва</option>
+                <option value="spb">Санкт-Петербург</option>
+            </select>
+        </div>
+        <div>
+            <button class="cancel"><a href="index.html">Отмена</a></button>
+            <button class="save"><a href="account.html">Сохранить</a></button>
+        </div>
+    </form>
+</body>
